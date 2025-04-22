@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/><link rel="icon" type="image/x-icon" href="icon.png"/>
+    <title>MUSIC</title>
+  </head>
+  <body>
+    <style>
+        html{
+                   background-color: rgb(24, 16, 77); 
+        }
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid 2px red; */
+        justify-content: space-between;
+      }
+      figure {
+        display: flex;
+        background-color: #eee4e4;
+        padding: 20px;
+        max-width: 100%;
+        border-radius: 8px;
+        justify-content: space-between;
+      }
+      .song {
+        display: flex;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding: 20px;
+       
+      }
+      .card {
+        background-color: #f0f0f0;
+        border-radius: 12px;
+        padding: 16px;
+        max-width: 300px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+      }
+
+      .card img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+
+      .card h2 {
+        margin: 0 0 8px;
+        font-size: 20px;
+      }
+
+      .card p {
+        margin: 0;
+        color: #555;
+        font-size: 14px;
+        padding: 20px;
+      }
+    </style>
+    <div class="wrapper">
+      <div class="card">
+        <img src="rdMusic.jpg" />
+        <h2>Poduction @roydualmusic</h2>
+        <p>
+          Music distribution and production. Krakow, Warszawa, Katowice, Minsk
+        </p>
+        <a
+          style="text-decoration: none; color: black"
+          target="_blank"
+          href="https://open.spotify.com/artist/4KaDLIDEP1nriikZ9RR9eD"
+        >
+          Spotify
+        </a>
+      </div>
+
+      <div>
+        <figure>
+          <div class="song">ISAEV - motherland</div>
+          <audio controls src="mury.mp3"></audio>
+        </figure>
+
+        <figure>
+          <div class="song">ISAEV - proLife</div>
+          <audio controls src="proLife.mp3"></audio>
+        </figure>
+
+        <figure>
+          <div class="song">ISAEV - man</div>
+          <audio controls src="myzik.mp3"></audio>
+        </figure>
+      </div>
+      <div class="card">
+        <img src="isaev.jpg" />
+        <h2>ISAEV</h2>
+        <p>
+            Hobbies: Legendary Mercedes vehicles, Frontend, Sport
+        </p>
+        <a
+          style="text-decoration: none; color: black"
+          target="_blank"
+          href="https://www.linkedin.com/in/uladzislau-isachkou-933867259/"
+        >
+          Linkedin
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
